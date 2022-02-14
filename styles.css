@@ -1,0 +1,261 @@
+/* general */
+
+
+body{
+    margin: 0;
+}
+  #waitlist, .footer h4{
+    text-align: center;
+}
+.lph1,.lpp, .purpose, #waitlist h1, .sbt-btn, .footer{
+    font-family: 'Epilogue', sans-serif;
+}
+.sbt-btn, .buttons button{
+    background: #878BF9;
+border-radius: 10px;
+outline: none;
+border: none;
+}
+.icon{
+    width: 3%;
+}
+
+
+#landingpage{
+   padding: 3% 10%; 
+   background-color: #070F16;
+
+}
+.mainpage{
+    width: 50%;
+}
+.lph1{
+    color:#F4F4F9;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 50px;
+}
+.lpp{
+    font-size: 0.9rem;
+}
+
+.lpp, .purpose p{
+    color: #dfdfe8;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+ .buttons button{
+width: 180px;
+height: 60px;
+margin: 10px;
+}
+
+td p{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8rem;
+}
+td img{
+    width: 60%;
+}
+
+/* phone */
+
+.phone{
+    width: 35%;
+   position: absolute;
+   top:0px;
+   right: 100px;
+}
+
+.roww{
+    padding-top: 150px;
+}
+.people{
+    width: 80%;
+}
+.buttons{
+    padding-top: 25px;
+}
+.purpose{
+    text-align: left;
+    padding-top: 70px;
+}
+.purpose p{
+    margin-bottom: 30px;
+}
+.purpose h1{
+    color: #F4F4F9;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* waitlist */
+
+#waitlist{
+    padding-top: 100px;
+    padding-bottom:50px ;
+}
+#waitlist h1,p{
+    color: #F4F4F9;
+}
+#waitlist h1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+#waitlist input, #schools{
+    background-color: transparent;
+    border: 1px solid #5f6078;
+    outline: none;
+    border-radius: 6px;
+    width: 60%;
+    margin: 10px;
+    color: grey;
+    padding: 10px;
+}
+.sbt-btn{
+    width: 150px;
+    height: 50px;
+    font-weight: 500;
+    }
+    button:hover{
+        background-color: #787cf5;
+    }
+
+/*footer  */
+
+.footer{
+    background-color: #070F16;
+    padding-bottom: 70px;
+
+
+}
+.footer h4{
+    margin: 0;
+    color: #070F16;
+    background-color: #878BF9;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+
+/*  */
+@media (max-width: 480px) {
+    .icon{
+        width: 10%;
+    }
+    #landingpage{
+        padding: 12%; 
+     }
+     .mainpage{
+         width: 100%;
+     }
+     .lph1{
+         font-size: 2.3rem;
+         padding-bottom: 30px;
+         padding-top: 30px;
+         line-height: 50px;
+     }
+     .lpp{
+         padding-top: 0;
+     }
+     .buttons button{
+    margin: 10px;
+        }
+        .buttons{
+            margin-bottom: 70px;
+        }
+        .roww{
+            padding-top: 0;
+        }
+        .lph1,.lpp, .buttons{
+            text-align: left;
+        }
+        .phone{
+            display: none;
+        }
+        .people{
+            margin-bottom: 50px;
+        }
+        #waitlist input, #schools{
+            font-size: 0.8rem;
+            width: 80%;
+        }
+    .purpose h1{
+        font-size: 1.8rem;
+        /* margin-bottom: 10px; */
+    }
+.purpose p{
+    margin-bottom: 30px;
+}
+br{
+    display: none;
+}
+  }
+
+
+  @media screen and (min-width: 481px) and (max-width:780px) {
+    .icon{
+        width: 8%;
+        padding-bottom: 30px;
+    }
+    #landingpage{
+        padding: 10% 13%; 
+     }
+     .mainpage{
+         width: 100%;
+         padding-bottom: 70px;
+     }
+     .lpp{
+         font-size: 1.3rem;
+         line-height: 50px;
+     }
+     .lph1{
+         font-size: 3.5rem;
+         padding-bottom: 10px;
+         padding-top: 30px;
+         line-height: 80px;
+     }
+     .people{
+         width: 70%;
+     }
+     
+     .buttons button{
+    margin: 10px;
+        }
+        .buttons{
+            margin-bottom: 70px;
+        }
+        .lph1,.lpp, .buttons{
+            text-align: left;
+        }
+        .roww{
+            padding-top: 0;
+        }
+        .phone{
+            display: none;
+        }
+        
+   
+        #waitlist input, #schools{
+            font-size: 1rem;
+            width: 70%;
+        }
+    .purpose h1{
+        font-size: 2.5rem;
+    }
+     #waitlist h1{
+font-size: 2.5rem;
+    }
+.purpose p{
+    margin-bottom: 30px;;
+}
+br{
+    display: none;
+}
+
+  }
